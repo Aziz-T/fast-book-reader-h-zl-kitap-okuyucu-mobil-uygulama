@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="3dp"
+    android:elevation="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baslik"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:id="@+id/baslik"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="icerikAAAAA"
+        android:textSize="20dp"
+        android:textColor="#606060"
+        android:maxLength="100"
+        android:layout_below="@id/baslik"
+        android:padding="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:id="@+id/icerik"/>
+
+</RelativeLayout>
